@@ -1,5 +1,6 @@
-import unittest 
-from calc import aec_subtract 
+import unittest
+from calc import aec_subtract
+
 
 class TestSubstract(unittest.TestCase):
     def test_subtract(self):
@@ -7,5 +8,6 @@ class TestSubstract(unittest.TestCase):
         sub_results = aec_subtract(arg_ints)
         self.assertEqual(sub_results, 15)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()
